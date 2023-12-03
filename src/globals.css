@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animation-menu {
+    animation: animation-menu 0.15s ease-in-out;
+  }
+  
+  @keyframes animation-menu {
+    from {transform: translateX(-100%);}
+    to {transform: translateX(0%);}
+  }
+}
